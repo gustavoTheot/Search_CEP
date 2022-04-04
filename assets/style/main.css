@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main {
+  margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header {
+  font-weight: 800;
+  font-size: 80px;
+  color: linear-gradient(to right, red, yellow);
+}
+
+.form {
+  margin-top: 20px;
+}
+
+.form .cep {
+  width: 340px;
+  height: 40px;
+  outline: none;
+  padding: 14px;
+  border: 1px solid #e4e4e4;
+  border-radius: 40px;
+}
+
+.form .button {
+  width: 80px;
+  height: 40px;
+  font-size: 12px;
+  font-weight: 700;
+  border: 0;
+  border-radius: 10px;
+  color: white;
+  background-color: #1e8fff8e;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+  -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+  cursor: pointer;
+}
+
+.form .button:hover {
+  border-radius: 20px;
+  background-color: #1e8fff;
+}
+
+.inform {
+  margin-top: 20px;
+}
+
+.inform ul {
+  margin-top: 15px;
+  width: 428px;
+  height: 260px;
+  border-radius: 10px;
+  color: black;
+  background-color: rgba(221, 221, 221, 0.37);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.inform ul li {
+  width: 400px;
+  list-style: none;
+}
+
+.inform ul li p {
+  padding: 10px;
+  margin-left: 10px;
+}
+
+@media (max-width: 500px) {
+  .header {
+    font-size: 60px;
+  }
+  .form .cep {
+    width: 240px;
+  }
+  .inform ul {
+    width: 340px;
+  }
+}
+/*# sourceMappingURL=main.css.map */

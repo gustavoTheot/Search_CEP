@@ -1,0 +1,29 @@
+.inform{
+    margin-top: 20px;
+
+    ul{
+        margin-top: 15px;
+
+        width: 428px;
+        height: 260px;
+
+        border-radius: 10px;
+
+        color: black;
+        background-color: rgba(221, 221, 221, 0.37);
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        li{
+            width: 400px;
+            list-style: none;
+
+            p{
+                padding: 10px;
+                margin-left: 10px;
+            }
+        }
+    }
+}

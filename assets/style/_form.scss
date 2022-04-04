@@ -1,0 +1,42 @@
+.form{
+    margin-top: 20px;
+
+
+    .cep{
+        width: 340px;
+        height: 40px;
+
+        outline: none;
+
+        padding: 14px;
+
+        border: 1px solid rgb(228, 228, 228);
+        border-radius: 40px;
+    }
+
+    .button{
+        width: 80px;
+        height: 40px;
+
+        font-size: 12px;
+        font-weight: 700;
+
+        border: 0;
+        border-radius: 10px;
+
+        color: white;
+        background-color: #1e8fff8e;
+
+        transition-duration: 0.2s;
+        transition-timing-function: linear;
+
+        cursor: pointer;
+
+        &:hover{
+            border-radius: 20px;
+
+            background-color: #1e8fff;
+            
+        }
+    }
+}
